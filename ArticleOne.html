@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/TechScoop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7cdbd4aef5.js" crossorigin="anonymous"></script>
+    <title>TechScoop</title>
+</head>
+<body>
+
+    <header class="TechScoop-Header">
+        <p class="Header-Title">TechScoop</p>
+        <ul class="Nav-Header">
+          <li><a class="header-button" href = "Index.html">HOME</a></li>
+          <li><a class="header-button" href = "#">BLOG</a></li>
+          <li><a class="header-button" href = "#">ABOUT</a></li>
+          <li><a class="header-button" href = "#">CONTACTS</a></li>
+        </ul>
+        <input class="Search-Bar" type="text" placeholder="Search..." name="search">
+      </header>
+    
+      <hr class="Hr-1">
+
+      <style>
+        .article-container {
+          display: flex;
+          flex-direction: column;
+          overflow: hidden;
+          align-items: start;
+          font-family: Inter, sans-serif;
+          color: rgba(43, 18, 72, 1);
+          font-weight: 700;
+          padding-left: 50px;
+          padding-right: 50px;
+        }
+        .author-info {
+          display: flex;
+          gap: 13px;
+          font-size: 14px;
+          font-weight: 300;
+        }
+        .author-avatar {
+          aspect-ratio: 1;
+          object-fit: contain;
+          object-position: center;
+          width: 47px;
+        }
+        .author-meta {
+          width: 100%;
+          margin: auto 0;
+        }
+        .article-title {
+          font-size: 40px;
+          margin: 31px 0 0;
+        }
+        .article-intro {
+          font-size: 20px;
+          font-weight: 400;
+          margin: 41px 0 0;
+        }
+        .article-image {
+          aspect-ratio: 1.73;
+          object-fit: contain;
+          object-position: center;
+          width: 100%;
+          margin: 33px 0 0;
+          max-width: 888px;
+        }
+        .section-heading {
+          font-size: 24px;
+          margin: 33px 0 0;
+        }
+        .section-text {
+          font-size: 20px;
+          font-weight: 400;
+        }
+        .features-list {
+          font-size: 22px;
+          font-weight: 400;
+          margin: 39px 0 0;
+        }
+        .divider {
+          aspect-ratio: 1000;
+          object-fit: contain;
+          object-position: center;
+          width: 100%;
+          margin: 30px 0 0;
+        }
+        .share-container {
+          display: flex;
+          align-items: center;
+          gap: 22px;
+          margin: 13px 0 0 18px;
+          font: 400 16px/1 Font Awesome 5 Brands, -apple-system, Roboto, Helvetica, sans-serif;
+        }
+        .share-text {
+          align-self: stretch;
+          flex-grow: 1;
+          margin: auto 0;
+          font: 15px/1 Inter, sans-serif;
+        }
+        .share-icon {
+          aspect-ratio: 0.95;
+          object-fit: contain;
+          object-position: center;
+          width: 19px;
+          align-self: stretch;
+        }
+        .bottom-divider {
+          aspect-ratio: 1000;
+          object-fit: contain;
+          object-position: center;
+          width: 100%;
+          margin: 16px 0 0;
+        }
+        @media (max-width: 991px) {
+          .author-info {
+            margin-left: 3px;
+          }
+          .article-title {
+            max-width: 100%;
+          }
+          .article-intro {
+            max-width: 100%;
+            margin-top: 40px;
+          }
+          .article-image {
+            max-width: 100%;
+          }
+          .section-heading {
+            max-width: 100%;
+            margin-right: 5px;
+          }
+          .features-list {
+            max-width: 100%;
+          }
+          .divider {
+            max-width: 100%;
+          }
+          .share-container {
+            margin-left: 10px;
+            white-space: initial;
+          }
+          .bottom-divider {
+            max-width: 100%;
+          }
+        }
+      </style>
+      
+      <article class="article-container">
+        <div class="author-info">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/1c8b198adfced561d9c3483883ce0ba487ddfaa4a5c365d996517180e97fc027?placeholderIfAbsent=true&apiKey=f36f6f05c3574d539331fa22c591868c"
+            class="author-avatar"
+            alt="Profile photo of Admin S. Admin"
+          />
+
+          <div class="author-meta">
+            <br /><br /><br />
+            Admin S. Admin
+            <br />
+            Mar 02, 2025 · 2 min read
+            <br />
+            <br />
+          </div>
+        </div>
+      
+        <h1 class="article-title">
+          Introducing the Future of Wearable Tech:
+          <br />
+          The SmartBand X
+        </h1>
+      
+        <p class="article-intro">
+          In the ever-evolving world of technology, wearable devices have become an
+          integral part of our daily lives. From fitness trackers to smartwatches,
+          these gadgets have revolutionized the way we monitor our health, stay
+          connected, and manage our time. Today, we're excited to introduce the latest
+          innovation in wearable tech: the SmartBand X.
+        </p>
+      
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/ac631a18fd5968cdfb0044f4e968af9e29d7eafac152e3b93cfde24107a51ba8?placeholderIfAbsent=true&apiKey=f36f6f05c3574d539331fa22c591868c"
+          class="article-image"
+          alt="SmartBand X wearable device showcase"
+        />
+      
+        <section class="section-heading">
+          What is the SmartBand X?
+          <br />
+          <br />
+          <p class="section-text">
+            The SmartBand X is a cutting-edge wearable device designed to seamlessly
+            integrate into your lifestyle. It combines the functionalities of a
+            fitness tracker, smartwatch, and health monitor into one sleek and stylish
+            band. Whether you're a fitness enthusiast, a busy professional, or someone
+            who simply wants to stay connected, the SmartBand X has something to
+            offer.
+          </p>
+        </section>
+      
+        <section class="features-list">
+          <h2>Key Features</h2>
+          <ol>
+            <li class="section-text">
+              Advanced Health Monitoring: The SmartBand X comes equipped with
+              state-of-the-art sensors that monitor your heart rate, blood oxygen
+              levels, sleep patterns, and even stress levels. With real-time data
+              and detailed insights, you can take proactive steps to improve your
+              overall well-being.
+            </li>
+            <li class="section-text">
+              Fitness Tracking: Track your workouts with precision using the
+              SmartBand X's built-in GPS and multi-sport modes. Whether you're
+              running, cycling, swimming, or practicing yoga, this device provides
+              accurate data to help you achieve your fitness goals.
+            </li>
+            <li class="section-text">
+              Smart Notifications: Stay connected without constantly checking your
+              phone. The SmartBand X delivers notifications for calls, messages,
+              emails, and social media updates directly to your wrist. You can even
+              respond to messages using voice commands.
+            </li>
+          </ol>
+        </section>
+      
+        <section class="section-heading">
+          Why Choose the SmartBand X?
+          <br />
+          <br />
+          <p class="section-text">
+            The SmartBand X stands out in the crowded market of wearable devices due
+            to its comprehensive feature set, sleek design, and user-friendly
+            interface. It's not just a gadget; it's a companion that helps you lead a
+            healthier, more connected, and more productive life.
+          </p>
+        </section>
+      
+        <section class="section-heading">
+          Conclusion
+          <br />
+          <p class="section-text">
+            As technology continues to advance, the SmartBand X represents the next
+            step in the evolution of wearable tech. With its innovative features and
+            stylish design, it's poised to become an essential part of your daily
+            routine. Stay tuned for its official release and be among the first to
+            experience the future of wearable technology.
+          </p>
+        </section>
+      </article>
+
+      <br /><br /><br />
+
+
+
+
+
+      <div class="news-letter-div">
+        <div class="news-letter">
+          <img class="robot" src="../Images/image 3.png" alt="Robot">
+          <div class="news-letter-2">
+              <i class="fa-regular fa-envelope"></i>
+              <p class="news-letter-title">JOIN OUR NEWSLETTER!</p>
+              <p class="news-letter-p">Stay ahead in tech with TechScoop! Subscribe now for the latest tech news, trends, and updates delivered
+              straight to your inbox.</p>
+          </div>
+          <input type="email" placeholder="Your email">
+          <button class="news-letter-button">SUBMIT</button>
+        </div>
+      </div>
+  
+      <footer class="footer-techscoop">
+        <div class="nav-footer">
+          <a class="page" href="#"><p class="footer-p">ABOUT</p></a>
+          <a class="page" href="#"><p class="footer-p">CONTACT</p></a>
+          <a class="page" href="#"><p class="footer-p">BLOG</p></a>
+        </div>
+          <hr class="Hr-5">
+  
+        <div class="footer-icons">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+  
+          <p class="footer-p">CONNECT WITH US</p>
+          <p class="footer-p"><i class="fa-regular fa-copyright"></i> COPYRIGHT <a class="title" href="#">TECHSCOOP</a></p>
+      </footer>
+    
+</body>
+</html>
